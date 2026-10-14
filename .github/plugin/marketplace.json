@@ -1,0 +1,19 @@
+{
+  "name": "datacontract-skills",
+  "owner": {
+    "name": "Data Contract",
+    "email": "hello@entropy-data.com"
+  },
+  "metadata": {
+    "description": "Coding-agent skills for data contracts.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "datacontract-skills",
+      "description": "Skills for working with data contracts (ODCS): create, test, add quality rules, check breaking changes, export code, set up CI/CD, and use the Data Contract Editor, with the open-source Data Contract CLI.",
+      "version": "0.1.0",
+      "source": "."
+    }
+  ]
+}

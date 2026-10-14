@@ -1,0 +1,21 @@
+{
+  "name": "datacontract-skills",
+  "interface": {
+    "displayName": "Data Contract Skills",
+    "shortDescription": "Coding-agent skills for data contracts."
+  },
+  "plugins": [
+    {
+      "name": "datacontract-skills",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/datacontract/datacontract-skills.git"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Data"
+    }
+  ]
+}

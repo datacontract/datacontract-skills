@@ -1,0 +1,33 @@
+{
+  "name": "datacontract-skills",
+  "owner": {
+    "name": "Data Contract",
+    "email": "hello@entropy-data.com"
+  },
+  "description": "Coding-agent skills for data contracts.",
+  "plugins": [
+    {
+      "name": "datacontract-skills",
+      "source": "./",
+      "description": "Skills for working with data contracts (ODCS): create, test, add quality rules, check breaking changes, export code, set up CI/CD, and use the Data Contract Editor, with the open-source Data Contract CLI.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Data Contract",
+        "url": "https://datacontract.com"
+      },
+      "homepage": "https://github.com/datacontract/datacontract-skills",
+      "repository": "https://github.com/datacontract/datacontract-skills",
+      "license": "MIT",
+      "keywords": [
+        "datacontract",
+        "data-contract",
+        "odcs",
+        "data-quality",
+        "data-product",
+        "dbt",
+        "data-mesh"
+      ],
+      "category": "Data"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "datacontract-skills",
+  "version": "0.1.0",
+  "description": "Skills for working with data contracts (ODCS): create, test, add quality rules, check breaking changes, export code, set up CI/CD, and use the Data Contract Editor, with the open-source Data Contract CLI.",
+  "author": {
+    "name": "Data Contract",
+    "url": "https://datacontract.com"
+  },
+  "homepage": "https://github.com/datacontract/datacontract-skills",
+  "repository": "https://github.com/datacontract/datacontract-skills",
+  "license": "MIT",
+  "keywords": [
+    "datacontract",
+    "data-contract",
+    "odcs",
+    "data-quality",
+    "data-product",
+    "dbt",
+    "data-mesh"
+  ],
+  "interface": {
+    "displayName": "Data Contract Skills",
+    "shortDescription": "Create, test, and evolve data contracts with the Data Contract CLI and Editor.",
+    "longDescription": "Skills for the Open Data Contract Standard: create a contract from a table or from requirements, test data against it and explain failures, add quality rules and service levels, check changes for breaking impact, export SQL, dbt, and schemas, run checks in CI/CD, and open contracts in the Data Contract Editor.",
+    "developerName": "Data Contract",
+    "category": "Data",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://datacontract.com",
+    "defaultPrompt": [
+      "Create a data contract for the orders table.",
+      "Test the data contract and explain the failures.",
+      "Is my change to this data contract breaking?",
+      "Generate dbt models and tests from the contract.",
+      "Open the contract in the Data Contract Editor."
+    ]
+  },
+  "skills": "./skills/"
+}
