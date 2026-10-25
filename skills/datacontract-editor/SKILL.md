@@ -68,7 +68,7 @@ Then open `http://localhost:4173`. Optional settings as environment variables:
 - AI assistant: `AI_ENABLED=true`, `AI_ENDPOINT` (OpenAI-compatible chat completions URL), `AI_API_KEY`, `AI_MODEL`, `AI_AUTH_HEADER` (`bearer` or `api-key`). The key is used by the browser, so only use a key scoped for this purpose.
 - Customization: mount a `customization.yaml` and set `CUSTOMIZATION_CONFIG` to its path.
 
-For `datacontract edit`, the AI assistant uses `DATACONTRACT_EDITOR_AI_ENDPOINT`, `DATACONTRACT_EDITOR_AI_API_KEY`, `DATACONTRACT_EDITOR_AI_MODEL`, `DATACONTRACT_EDITOR_AI_PROVIDER` (`openai` or `anthropic`), and `DATACONTRACT_EDITOR_AI_AUTH_HEADER`, see [Edit your Contract](https://docs.datacontract.com/editor).
+For `datacontract edit`, the AI assistant uses `DATACONTRACT_EDITOR_AI_ENDPOINT`, `DATACONTRACT_EDITOR_AI_API_KEY`, `DATACONTRACT_EDITOR_AI_MODEL`, `DATACONTRACT_EDITOR_AI_PROVIDER` (`openai` or `anthropic`), and `DATACONTRACT_EDITOR_AI_AUTH_HEADER`, see [Edit your Contract](https://cli.datacontract.com/editor).
 
 ## Step 4: Customize the editor for an organization (optional)
 

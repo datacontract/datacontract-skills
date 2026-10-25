@@ -31,7 +31,7 @@ servers:
 
 ## Step 2: Credentials
 
-Look up the variables for the server type on its page under [Test your Data](https://docs.datacontract.com/testing) (for example [Snowflake](https://docs.datacontract.com/testing/snowflake), [Databricks](https://docs.datacontract.com/testing/databricks), [BigQuery](https://docs.datacontract.com/testing/bigquery), [Postgres](https://docs.datacontract.com/testing/postgres), [S3](https://docs.datacontract.com/testing/s3)). Check which ones are set, without printing values:
+Look up the variables for the server type on its page under [Test your Data](https://cli.datacontract.com/testing) (for example [Snowflake](https://cli.datacontract.com/testing/snowflake), [Databricks](https://cli.datacontract.com/testing/databricks), [BigQuery](https://cli.datacontract.com/testing/bigquery), [Postgres](https://cli.datacontract.com/testing/postgres), [S3](https://cli.datacontract.com/testing/s3)). Check which ones are set, without printing values:
 
 ```bash
 for v in DATACONTRACT_SNOWFLAKE_USERNAME DATACONTRACT_SNOWFLAKE_PASSWORD DATACONTRACT_SNOWFLAKE_WAREHOUSE DATACONTRACT_SNOWFLAKE_ROLE; do
@@ -81,7 +81,7 @@ Read the results file and group the non-passed checks (`failed`, `warning`, `err
 | Row count | empty or partial load | Load date and pipeline run; tighten `--filter` |
 | Freshness | late pipeline, or `element` points to the wrong column, or time zone | Max of the `element` column vs. now |
 | Connection or `error` result | credentials, network, missing extra, wrong `servers` fields | Run again with `--logs --debug`; check the source page's required fields |
-| Warning "cannot connect" for a server type | type not testable by the CLI | See the supported list under [Test your Data](https://docs.datacontract.com/testing) |
+| Warning "cannot connect" for a server type | type not testable by the CLI | See the supported list under [Test your Data](https://cli.datacontract.com/testing) |
 
 Rules:
 

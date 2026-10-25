@@ -28,7 +28,7 @@ Alternatives:
 - `uvx --from 'datacontract-cli[all]' datacontract <command>` for a one-off run without installing
 - Docker: `docker run --rm -v "${PWD}:/home/datacontract" datacontract/cli <command>`
 
-`[all]` pulls in every data source driver. When the user only needs one source, a smaller extra is faster to install: `[snowflake]`, `[bigquery]`, `[databricks]`, `[postgres]`, `[s3]`, `[kafka]`, `[sqlserver]`, `[trino]`, `[api]` (needed for `datacontract edit` and `datacontract api`), and more, see [Installation](https://docs.datacontract.com/installation).
+`[all]` pulls in every data source driver. When the user only needs one source, a smaller extra is faster to install: `[snowflake]`, `[bigquery]`, `[databricks]`, `[postgres]`, `[s3]`, `[kafka]`, `[sqlserver]`, `[trino]`, `[api]` (needed for `datacontract edit` and `datacontract api`), and more, see [Installation](https://cli.datacontract.com/installation).
 
 Ask before installing anything. Never install with `sudo`.
 
@@ -49,11 +49,11 @@ DATACONTRACT_S3_ACCESS_KEY_ID
 DATACONTRACT_S3_SECRET_ACCESS_KEY
 ```
 
-The exact variables for each source are on its page under [Test your Data](https://docs.datacontract.com/testing). Where they can come from, in order of precedence:
+The exact variables for each source are on its page under [Test your Data](https://cli.datacontract.com/testing). Where they can come from, in order of precedence:
 
 1. already set environment variables,
 2. a `.env` file in the working directory or the nearest parent,
-3. a YAML config file (`--config-file`, or `./datacontract-config.yaml`, or `~/.datacontract/config.yaml`), see [Configuration](https://docs.datacontract.com/configuration).
+3. a YAML config file (`--config-file`, or `./datacontract-config.yaml`, or `~/.datacontract/config.yaml`), see [Configuration](https://cli.datacontract.com/configuration).
 
 Rules for the agent:
 
@@ -72,7 +72,7 @@ datacontract export <format> --help
 datacontract import <format> --help
 ```
 
-The full documentation is at [docs.datacontract.com](https://docs.datacontract.com), also as [llms.txt](https://docs.datacontract.com/llms.txt) (an index) and [llms-full.txt](https://docs.datacontract.com/llms-full.txt) (every page in one file). Fetch the specific page you need instead of guessing option names or YAML attributes.
+The full documentation is at [cli.datacontract.com](https://cli.datacontract.com), also as [llms.txt](https://cli.datacontract.com/llms.txt) (an index) and [llms-full.txt](https://cli.datacontract.com/llms-full.txt) (every page in one file). Fetch the specific page you need instead of guessing option names or YAML attributes.
 
 ## Command overview
 

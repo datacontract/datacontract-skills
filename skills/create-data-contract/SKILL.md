@@ -145,7 +145,7 @@ Checklist:
 - **Team and status:** an owner, and `status: draft` until consumers have agreed.
 - Quality rules and service levels: add the obvious ones (row count, freshness); for a thorough set use the `quality-rules` skill.
 
-Before writing an attribute you are not sure exists in ODCS, look it up in the [ODCS reference](https://bitol-io.github.io/open-data-contract-standard/latest/) or the [CLI docs on schemas](https://docs.datacontract.com/schema). `datacontract lint` rejects unknown attributes; custom metadata goes into `customProperties` (`- property: <name>` / `value: <value>`).
+Before writing an attribute you are not sure exists in ODCS, look it up in the [ODCS reference](https://bitol-io.github.io/open-data-contract-standard/latest/) or the [CLI docs on schemas](https://cli.datacontract.com/schema). `datacontract lint` rejects unknown attributes; custom metadata goes into `customProperties` (`- property: <name>` / `value: <value>`).
 
 ## Step 4: Lint until valid
 

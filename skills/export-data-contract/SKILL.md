@@ -63,7 +63,7 @@ datacontract dbt test contracts/orders.odcs.yaml --project-dir ./warehouse      
 - `--prune` removes columns and tags that are not in the contract. It deletes content: show the dry run first and ask.
 - `dbt test` runs dbt against the warehouse; ask before running it.
 
-See [Sync with dbt](https://docs.datacontract.com/dbt).
+See [Sync with dbt](https://cli.datacontract.com/dbt).
 
 ## Step 4: Integrate the output
 

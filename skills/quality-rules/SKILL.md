@@ -87,7 +87,7 @@ Rules:
 - `type: text` documents an expectation nobody can automate. Use it sparingly.
 - Thresholds come from the owner or from data, never from thin air. If neither is available, propose a value and mark it as an assumption in the description.
 
-Check the details of a rule type before using an option you have not seen: [quality rules](https://docs.datacontract.com/quality-rules), [library](https://docs.datacontract.com/quality-rules/library), [SQL](https://docs.datacontract.com/quality-rules/sql).
+Check the details of a rule type before using an option you have not seen: [quality rules](https://cli.datacontract.com/quality-rules), [library](https://cli.datacontract.com/quality-rules/library), [SQL](https://cli.datacontract.com/quality-rules/sql).
 
 ## Step 4: Service levels
 
@@ -108,7 +108,7 @@ slaProperties:
     value: 99.9%
 ```
 
-Other properties (`availability`, `latency`, `support`, ...) document promises and are not tested. See [service levels](https://docs.datacontract.com/service-levels).
+Other properties (`availability`, `latency`, `support`, ...) document promises and are not tested. See [service levels](https://cli.datacontract.com/service-levels).
 
 ## Step 5: Ground the thresholds in data (optional)
 

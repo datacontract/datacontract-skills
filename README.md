@@ -63,7 +63,7 @@ The skills use the [Data Contract CLI](https://cli.datacontract.com). The agent 
 uv tool install --python python3.11 --upgrade 'datacontract-cli[all]'
 ```
 
-Credentials for your data sources are environment variables (or a `.env` file), see [Test your Data](https://docs.datacontract.com/testing). The skills never ask you to paste secrets into the chat.
+Credentials for your data sources are environment variables (or a `.env` file), see [Test your Data](https://cli.datacontract.com/testing). The skills never ask you to paste secrets into the chat.
 
 ## Usage
 
@@ -86,7 +86,7 @@ Credentials for your data sources are environment variables (or a `.env` file), 
 ## Related
 
 - [datacontract.com](https://datacontract.com): what data contracts are
-- [Data Contract CLI documentation](https://docs.datacontract.com)
+- [Data Contract CLI documentation](https://cli.datacontract.com)
 - [Data Contract Editor](https://editor.datacontract.com)
 - [Entropy Data Skills](https://github.com/entropy-data/entropy-data-skills): analyses for data contracts and data products managed in [Entropy Data](https://entropy-data.com)
 

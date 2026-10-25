@@ -29,4 +29,4 @@ Every skill checks the CLI first (`datacontract --version`, see `skills/datacont
 - **Never ask for secrets in the chat** and never print them. Credentials are `DATACONTRACT_*` environment variables or a `.env` file the user maintains.
 - **Never output unmasked personal data** from test results or failed samples.
 - **Do not loosen a contract to make a failing test pass** without the owner's decision.
-- **Look it up instead of guessing:** `datacontract <command> --help` and [docs.datacontract.com](https://docs.datacontract.com) ([llms.txt](https://docs.datacontract.com/llms.txt)).
+- **Look it up instead of guessing:** `datacontract <command> --help` and [cli.datacontract.com](https://cli.datacontract.com) ([llms.txt](https://cli.datacontract.com/llms.txt)).

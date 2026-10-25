@@ -94,7 +94,7 @@ The ready-made [datacontract-action](https://github.com/datacontract/datacontrac
           DATACONTRACT_SNOWFLAKE_USERNAME: ${{ secrets.DATACONTRACT_SNOWFLAKE_USERNAME }}
 ```
 
-Other systems: see [Scheduling](https://docs.datacontract.com/scheduling) for Azure DevOps, Airflow (Data Contract provider), plain cron with the `datacontract/cli` Docker image, and calling the Python library from Dagster, Prefect, or Databricks jobs. For GitLab CI, use the same commands in a job with `image: python:3.11` and `rules:` for merge requests and schedules.
+Other systems: see [Scheduling](https://cli.datacontract.com/scheduling) for Azure DevOps, Airflow (Data Contract provider), plain cron with the `datacontract/cli` Docker image, and calling the Python library from Dagster, Prefect, or Databricks jobs. For GitLab CI, use the same commands in a job with `image: python:3.11` and `rules:` for merge requests and schedules.
 
 ## Step 3: Credentials
 
